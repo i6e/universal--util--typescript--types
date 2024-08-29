@@ -11,7 +11,7 @@ type StringUnionToStringInternal<
     ? StringUnionToStringInternal<
         Exclude<TUnion, I>,
         TSeparator,
-        I extends string ? I : "WTF"
+        I extends string ? I : never
       >
     : StringUnionToStringInternal<
         Exclude<TUnion, I>,
