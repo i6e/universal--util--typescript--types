@@ -21,3 +21,4 @@ export { UnionAny } from "./types/UnionAny";
 export { UnionSize } from "./types/UnionSize";
 export { UnionToAnyTuple } from "./types/UnionToAnyTuple";
 export { UnionToIntersection } from "./types/UnionToIntersection";
+export { Values } from "./types/Values";

@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@icehouse/universal--util--typescript--types",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "scripts": {
     "publish": "rimraf dist && tsc && cpy README.md .npmignore dist && package-json-minifier && dts-bundle-generator index.ts -o dist/index.d.ts && clean-empty-js 'dist/**/*.js' && clean-empty-directory dist && cd dist && npm publish"
